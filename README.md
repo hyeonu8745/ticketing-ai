@@ -95,9 +95,8 @@ python chatbot_server.py          # port 8003
 
 ## 🔗 관련 레포지토리
 
-- 백엔드: [DEAR TICKET Backend](링크)
-- 프론트엔드: [DEAR TICKET Frontend](링크)
-
+- 백엔드: [DEAR TICKET Backend](https://github.com/hyeonu8745/ticketing-server)
+- 프론트엔드: [DEAR TICKET Frontend](https://github.com/hyeonu8745/ticketing-frontend)
 ---
 
 ## 📦 References
