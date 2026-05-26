@@ -71,13 +71,13 @@ pip install -r requirements.txt
 ### 2. 서버 실행
 
 ```bash
-python bot_detection_server.py    # port 8000
-python recommendation_server.py   # port 8001
-python demand_forecast_server.py  # port 8002
-python chatbot_server.py          # port 8003
+uvicorn bot_detection_server:app --host 0.0.0.0 --port 8000
+uvicorn recommendation_server:app --host 0.0.0.0 --port 8001
+uvicorn demand_forecast_server:app --host 0.0.0.0 --port 8002
+uvicorn chatbot_server:app --host 0.0.0.0 --port 8003
 ```
 
-> Spring Boot 백엔드 실행 전에 AI 서버를 먼저 기동하는 것을 권장합니다.
+> Spring Boot 백엔드 실행 **전에** AI 서버를 먼저 기동하는 것을 권장합니다.
 > AI 서버가 꺼져 있어도 메인 서비스는 정상 동작합니다. (Fail-Open)
 
 ---
